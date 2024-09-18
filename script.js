@@ -45,11 +45,11 @@ const payouts = {
 };
 
 // 音声ファイル
-const betSound = new Audio("slot/sound/bet.mp3");
-const spinSound = new Audio("slot/sound/spin.mp3");
-const stopSound = new Audio("slot/sound/stop.mp3");
-const matchSound = new Audio("slot/sound/match.mp3");
-const roleSound = new Audio("slot/sound/role.mp3");
+const betSound = new Audio("sound/bet.mp3");
+const spinSound = new Audio("sound/spin.mp3");
+const stopSound = new Audio("sound/stop.mp3");
+const matchSound = new Audio("sound/match.mp3");
+const roleSound = new Audio("sound/role.mp3");
 roleSound.loop = true; // ループ再生を設定
 
 betOneButton.addEventListener("click", () => {
