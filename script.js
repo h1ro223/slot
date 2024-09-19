@@ -1,4 +1,4 @@
-const reelSymbols = ["🍒", "🍋", "🍊", "🍉", "🍇", "🍓", "7️⃣"];
+const reelSymbols = ["🍒", "🍇", "🍈", "🥭", "👑", "💎", "7️⃣"];
 const reel1 = document.getElementById("reel1").querySelector(".symbols");
 const reel2 = document.getElementById("reel2").querySelector(".symbols");
 const reel3 = document.getElementById("reel3").querySelector(".symbols");
@@ -27,20 +27,20 @@ let spinsSinceLastWin = 0; // 最後の勝利からのスピン回数
 const maxBet = 100;
 const baseOdds = {
   "🍒": 0.3,
-  "🍋": 0.2,
-  "🍊": 0.2,
-  "🍉": 0.15,
-  "🍇": 0.1,
-  "🍓": 0.05,
+  "🍇": 0.2,
+  "🍈": 0.2,
+  "🥭": 0.15,
+  "👑": 0.1,
+  "💎": 0.05,
   "7️⃣": 0.02,
 };
 const payouts = {
   "🍒": 2,
-  "🍋": 3,
-  "🍊": 4,
-  "🍉": 5,
-  "🍇": 6,
-  "🍓": 7,
+  "🍇": 3,
+  "🍈": 4,
+  "🥭": 7,
+  "👑": 10,
+  "💎": 30,
   "7️⃣": 77, // ラッキー7のコイン倍率を77に変更
 };
 
