@@ -20,7 +20,7 @@ let stopReel2 = false;
 let stopReel3 = false;
 let finalPositions = [0, 0, 0];
 let currentBet = 0;
-let availableCoins = 100; // 初期コイン所持数を100に設定
+let availableCoins = 1000; // 初期コイン所持数を1000に設定
 let lastPayout = 0; // 最後のペイアウトを記憶するための変数
 let spinsSinceLastWin = 0; // 最後の勝利からのスピン回数
 
