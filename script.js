@@ -159,7 +159,7 @@ function spin() {
 
   setTimeout(() => {
     canStop = true;
-  }, 1000); // 1秒後にストップボタンを押せるようにする
+  }, 500); // 1秒後にストップボタンを押せるようにする
 }
 
 function spinReel(reel, reelIndex) {
