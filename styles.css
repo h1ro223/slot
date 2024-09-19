@@ -84,3 +84,7 @@ button:hover {
 #speedValue {
   font-weight: bold;
 }
+
+html {
+  touch-action: manipulation;
+}
